@@ -159,7 +159,6 @@ public class employee_info extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         combo_post = new javax.swing.JComboBox();
-        join_date = new com.toedter.calendar.JDateChooser();
         txt_address = new javax.swing.JTextField();
         txt_email = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
@@ -391,7 +390,6 @@ public class employee_info extends javax.swing.JFrame {
                                         .addComponent(jRadioButton1))
                                     .addComponent(txt_email)
                                     .addComponent(combo_post, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(join_date, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(txt_contact)
                                     .addComponent(txt_address)
                                     .addComponent(txt_surname)
@@ -462,10 +460,8 @@ public class employee_info extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txt_contact, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel11)
-                    .addComponent(join_date, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12)
@@ -1754,7 +1750,6 @@ public class employee_info extends javax.swing.JFrame {
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
-    private com.toedter.calendar.JDateChooser join_date;
     private javax.swing.JLabel lbl_EmpID;
     private javax.swing.JLabel lbl_about;
     private javax.swing.JLabel lbl_address;
